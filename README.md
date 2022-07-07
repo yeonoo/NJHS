@@ -4,18 +4,18 @@
 !sudo apt-get install -y fonts-nanum<br>
 !sudo fc-cache -fv<br>
 !rm ~/.cache/matplotlib -rf<br>
-<br>
+<p>
 2. 나눔 폰트 적용<br>
 import matplotlib.pyplot as plt<br>
 plt.rc('font', family='NanumBarunGothic') <br>
-<br>
+<p>
 3. 패키지<br>
 import pandas as pd<br>
 import numpy as np<br>
 import matplotlib.pyplot as plt<br>
 %matplotlib inline<br>
 plt.rc('font', family='NanumBarunGothic') <br>
-<br>
+<p>
 4.selenium 설치<br>
 !pip install selenium<br>
 !apt-get update<br>
