@@ -4,6 +4,7 @@
 !sudo apt-get install -y fonts-nanum<br>
 !sudo fc-cache -fv<br>
 !rm ~/.cache/matplotlib -rf<br>
+<br>
 <p>
 2. 나눔 폰트 적용<br>
 import matplotlib.pyplot as plt<br>
